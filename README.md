@@ -47,5 +47,5 @@ Built to practice React Router, API integration, and responsive UI design.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/movie-finder.git
+   git clone https://github.com/VenkataMadhuK/movie-finder-v1/
    ```
