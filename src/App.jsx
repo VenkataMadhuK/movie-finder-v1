@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Searchpage from "./components/Searchpage";
 import Cards from "./components/Cards";
 import SingleMovieCard from "./components/SingleMovieCard";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [movieValue, setMovieValue] = useState([]);
@@ -30,6 +31,7 @@ const App = () => {
         />
         <Route path="/movie/:id" element={<SingleMovieCard />} />
       </Routes>
+      <Footer />
     </>
   );
 };
